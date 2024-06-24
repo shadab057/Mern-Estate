@@ -1,7 +1,7 @@
 import bcryptjs from 'bcryptjs'
 import User from '../models/User.model.js'
 import { errorHandler } from '../utils/error.js';
-import Listing from '../models/listing.model.js';
+import Listing from '../models/listingmodel.js';
 
 export const test = (req, res)=>{
     res.json({
